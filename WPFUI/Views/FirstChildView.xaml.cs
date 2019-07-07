@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPFUI
+namespace WPFUI.Views
 {
     /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
+    /// Interaktionslogik für FirstChildView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class FirstChildView : UserControl
     {
-        public MainWindow()
+        public FirstChildView()
         {
             InitializeComponent();
         }
